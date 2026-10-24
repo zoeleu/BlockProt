@@ -135,7 +135,7 @@ tasks.build {
 
 tasks.runServer {
     downloadPlugins {
-        url("https://download.luckperms.net/1561/bukkit/loader/LuckPerms-Bukkit-5.4.146.jar")
+        modrinth("luckperms", "v5.5.71-bukkit")
     }
     minecraftVersion("26.3")
 }
